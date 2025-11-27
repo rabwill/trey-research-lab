@@ -5,6 +5,7 @@ env/.env.local
 .DS_Store
 build
 appPackage/build
+pluginPackage/build
 .deployment
 
 # dependencies
@@ -24,7 +25,14 @@ out
 bin
 obj
 appsettings.json
-local.settings.json
 
 # Local data
 .localConfigs
+
+# Azurite storage
+_storage_emulator
+
+# User-specific files
+appPackage/hand-built
+
+
