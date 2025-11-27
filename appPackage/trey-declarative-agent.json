@@ -31,7 +31,7 @@
     "actions": [
         {
             "id": "treyresearch",
-            "file": "ai-plugin.json"
+            "file": "trey-plugin.json"
         }
     ]
 }

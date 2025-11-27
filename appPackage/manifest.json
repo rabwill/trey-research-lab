@@ -25,7 +25,7 @@
   "copilotAgents": { 
     "declarativeAgents": [
       {
-        "id": "treygenieda",
+        "id": "treygenie",
         "file": "trey-declarative-agent.json"
       }
     ]
