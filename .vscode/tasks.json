@@ -62,6 +62,9 @@
             // Start the local tunnel service to forward public URL to local port and inspect traffic.
             // See https://aka.ms/teamsfx-tasks/local-tunnel for the detailed args definitions.
             "label": "Start local tunnel",
+            "dependsOn": [
+                "Start Azurite emulator"
+            ],
             "type": "teamsfx",
             "command": "debug-start-local-tunnel",
             "args": {
